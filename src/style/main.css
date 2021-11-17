@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100vh;
+  color: #333333;
+  mix-blend-mode: luminosity;
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+.content {
+  position: absolute;
+  display: grid;
+  align-items: center;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-size: 5em;
+  font-weight: lighter;
+  margin-left: 10vw;
+  font-family: "Cormorant", serif;
+}
